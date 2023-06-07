@@ -1,0 +1,184 @@
+.contato {
+    background-color: #ebebeb;
+    border-top: 1px solid #ccc;
+
+    h1 {
+        color: #000;
+        font-weight: 700;
+        font-size: 1.3em;
+    }
+
+    p {
+        color: #000;
+        font-size: 1em;
+    }
+
+    .icone{
+        padding: 5px;
+    }
+
+    .diferent_formate {
+        font-weight: 500;
+    }
+
+    .links {
+        a {
+            text-decoration: none;
+            color: #000;
+            font-size: 3em;
+        }
+    }
+}
+
+@media (max-width: 75em) {
+    .contato {
+        h1 {
+            color: #000;
+            font-weight: 700;
+            font-size: 1.3em;
+        }
+
+        p {
+            color: #000;
+            font-size: 1em;
+        }
+
+        .icone{
+            padding: 5px;
+        }
+
+        .diferent_formate {
+            font-weight: 500;
+        }
+
+        .links {
+            a {
+                text-decoration: none;
+                color: #000;
+                font-size: 3em;
+            }
+        }
+    }
+}
+
+@media (max-width: 64em) {
+    .contato {
+        h1 {
+            color: #000;
+            font-weight: 700;
+            font-size: 1.3em;
+        }
+
+        p {
+            color: #000;
+            font-size: 1em;
+        }
+
+        .icone{
+            padding: 5px;
+        }
+
+        .diferent_formate {
+            font-weight: 500;
+        }
+
+        .links {
+            a {
+                text-decoration: none;
+                color: #000;
+                font-size: 3em;
+            }
+        }
+    }
+}
+
+@media (max-width: 56.25em) {
+    .contato {
+        h1 {
+            color: #000;
+            font-weight: 700;
+            font-size: 1.3em;
+        }
+
+        p {
+            color: #000;
+            font-size: 1em;
+        }
+
+        .icone{
+            padding: 5px;
+        }
+
+        .diferent_formate {
+            font-weight: 500;
+        }
+
+        .links {
+            a {
+                text-decoration: none;
+                color: #000;
+                font-size: 3em;
+            }
+        }
+    }
+}
+
+@media (max-width: 48em) {
+    .contato {
+        h1 {
+            color: #000;
+            font-weight: 700;
+            font-size: 1.3em;
+        }
+
+        p {
+            color: #000;
+            font-size: 1em;
+        }
+
+        .icone{
+            padding-top: 5px;
+        }
+
+        .diferent_formate {
+            font-weight: 500;
+        }
+
+        .links {
+            a {
+                text-decoration: none;
+                color: #000;
+                font-size: 3em;
+            }
+        }
+    }
+}
+
+@media (max-width: 20em) {
+    .contato {
+        h1 {
+            color: #000;
+            font-weight: 700;
+            font-size: 1.3em;
+        }
+
+        p {
+            color: #000;
+            font-size: 1em;
+            padding: 0;
+        }
+
+        .diferent_formate {
+            font-weight: 500;
+            padding: 0;
+        }
+
+        .links {
+            a {
+                text-decoration: none;
+                color: #000;
+                font-size: 3em;
+            }
+        }
+    }
+}

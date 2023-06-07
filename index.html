@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- links para fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- links de estilização e icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="_css/app.css" />
+
+    <title>Protifólio - Ariel Morais</title>
+  </head>
+
+  <body>
+    <header class="main_header py-1">
+      <nav class="navbar navbar-expand-md">
+        <div class="container">
+          <div class="navbar-brand">
+            <a href="index.html">
+              <h1 class="d-none">ARL dev</h1>
+              <img
+                src="_img/logo_2.png"
+                alt="ARL dev"
+                title="ARL dev"
+                class="d-none d-sm-inline-block"
+                width="280"
+              />
+            </a>
+          </div>
+
+          <button
+            class="navbar-toggler bg-primary"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#inicio">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Sobre Mim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#formations">Formação</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Habilidades</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="main_slide" id="inicio">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="moldura_frases col-sm-12 col-md-8 col-lg-7 col-xl-8">
+            <h1
+              class="pb-2 d-flex justify-content-center d-sm-flex justify-content-sm-center d-md-flex justify-content-md-start"
+            >
+              Hello World!!
+            </h1>
+            <p
+              class="pb-1 d-flex justify-content-center d-sm-flex justify-content-sm-center d-md-flex justify-content-md-start"
+            >
+              Eu sou Ariel Morais
+            </p>
+            <p
+              class="menor pt-0 d-flex justify-content-center d-sm-flex justify-content-sm-center d-md-flex justify-content-md-start"
+            >
+              Desenvolvedor Web
+            </p>
+          </div>
+          <div
+            class="moldura_foto d-flex justify-content-center col-sm-12 d-sm-flex justify-content-sm-center col-md-4 col-lg-5 col-xl-4"
+          >
+            <img
+              src="_img/foto_ariel.jpg"
+              alt="Foto de Ariel Morais"
+              title="Foto de Ariel Morais"
+              class="foto_ariel"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sobre_mim py-4" id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12">
+            <h1
+              class="d-flex justify-content-center d-md-flex justify-content-md-start"
+            >
+              Sobre Mim
+            </h1>
+            <p>
+              Meu nome é Ariel Morais, sou uma pessoa facinada por tecnologia e
+              meu primeiro contato com linhas de código foi no meu Ensino Médio,
+              no curso Técnico de Informática. Com isso eu me interessei nesta
+              área de Desenvolvimento Web.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="formacao py-4" id="formations">
+      <div class="container">
+        <h1
+          class="py-3 d-flex justify-content-center d-md-flex justify-content-md-start"
+        >
+          Formação
+        </h1>
+
+        <div class="card-group">
+          <div class="card">
+            <img
+              src="_img/certificado_cep.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ensino Médio Téc.Informática</h5>
+              <p class="card-text">
+                <span>Instituição:</span> CEP “Tancredo Neves”
+              </p>
+              <p class="card-text">
+                <span>Ano de Conclusão:</span>
+                2022
+              </p>
+              <p class="card-text">
+                <span>Ver Certificado:</span>
+                <a href="_docs/REPÚBLICA FEDERATIVA DO BRASIL.pdf" download
+                  >Fazer download</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="_img/certificado_html.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Curso HTML5 e CSS3 Essentials</h5>
+              <p class="card-text"><span>Instituição:</span> UpInside</p>
+              <p class="card-text">
+                <span>Ano de Conclusão:</span>
+                2023
+              </p>
+              <p class="card-text">
+                <span>Ver Certificado:</span>
+                <a
+                  href="_docs/Certificado HTML5 e CSS3 Essentials .pdf"
+                  download=""
+                  >Fazer download</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="_img/certificado_scss.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Curso CSS Produtivo com Sass</h5>
+              <p class="card-text"><span>Instituição:</span> UpInside</p>
+              <p class="card-text">
+                <span>Ano de Conclusão:</span>
+                2023
+              </p>
+              <p class="card-text">
+                <span>Ver Certificado:</span>
+                <a
+                  href="_docs/Certificado CSS produtivo com Sass.pdf"
+                  download=""
+                  >Fazer download</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="_img/certificado-bootstrap.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Curso Bootstrap Builder</h5>
+              <p class="card-text"><span>Instituição:</span> UpInside</p>
+              <p class="card-text">
+                <span>Ano de Conclusão:</span>
+                2023
+              </p>
+              <p class="card-text">
+                <span>Ver Certificado:</span>
+                <a href="_docs/Certificado Bootstrap Builder.pdf" download=""
+                  >Fazer download</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="habilidades py-4" id="skills">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12">
+            <h1
+              class="pb-3 d-flex justify-content-center d-md-flex justify-content-md-start"
+            >
+              Habilidades
+            </h1>
+            <ul>
+              <li class="fa-brands fa-html5 icon pb-2">
+                <h2 class="d-none">HTML</h2>
+                <span class="px-2">HTML</span>
+              </li>
+              <p class="pb-2">
+                É uma linguagem de marcação utilizada na contrução de páginas
+                Web.
+              </p>
+
+              <li class="fa-brands fa-css3 icon pb-2">
+                <h2 class="d-none">CSS</h2>
+                <span class="px-2">CSS</span>
+              </li>
+              <p class="pb-2">
+                É uma linguagem de estilização utilizada na contrução de páginas
+                Web.
+              </p>
+
+              <li class="fa-brands fa-sass icon pb-2">
+                <h2 class="d-none">Sass</h2>
+                <span class="px-2">Sass</span>
+              </li>
+              <p class="pb-2">É uma linguagem de folhas de Estilo.</p>
+
+              <li class="fa-brands fa-js icon pb-2">
+                <h2 class="d-none">JavaScript</h2>
+                <span class="px-2">JavaScript</span>
+              </li>
+              <p class="pb-2">
+                É uma linguagem de programação. Juntamente com HTML e CSS, é uma
+                das três principais tecnologias da Web.
+              </p>
+
+              <li class="fa-brands fa-bootstrap icon pb-2">
+                <h2 class="d-none">Bootstrap</h2>
+                <span class="px-2">Bootstrap</span>
+              </li>
+              <p class="pb-2">
+                É um framework que fornece estruturas de CSS para a criação de
+                sites e aplicações responsivas de forma rápida e simples.
+              </p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="contato" id="contact">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-sm-6">
+              <h1
+                class="pb-0 pt-1 d-flex justify-content-center d-md-flex justify-content-md-start"
+              >
+                Contato
+              </h1>
+
+              <p
+                class="d-flex justify-content-center d-md-flex justify-content-md-start"
+              >
+                <span
+                  class="icone d-none d-md-block fa-solid fa-envelope"
+                ></span
+                ><span class="d-none diferent_formate">
+                  Email para contato:</span
+                >
+                arielmorais644@gmail.com
+              </p>
+            </div>
+
+            <div
+              class="links col-12 d-flex justify-content-center col-sm-6 d-sm-flex justify-content-sm-end"
+            >
+              <a
+                href="https://www.linkedin.com/in/ariel-morais/"
+                target="_blank"
+                class="fa-brands fa-linkedin icones px-2"
+              ></a>
+              <a
+                href="https://github.com/arielm11"
+                target="_blank"
+                class="fa-brands fa-square-github icones"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- links do bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

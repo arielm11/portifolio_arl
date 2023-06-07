@@ -1,0 +1,38 @@
+/* Header */
+@import '../var';
+
+.main_header{
+    width: 100%;
+    background-color: $color-front;
+    
+
+    nav{
+        ul{
+            li{
+                a{
+                    color: #fff;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 23.4em){
+    .main_header{
+        nav{
+            .foto_none{
+                display: none !important;
+            }
+            ul{
+                li{
+                    a{
+                        color: #fff;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
+

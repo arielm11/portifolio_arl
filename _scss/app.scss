@@ -1,0 +1,22 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+@import 'theme/header';
+
+@import 'theme/inicio';
+
+@import 'theme/about';
+
+@import 'theme/formation';
+
+@import 'theme/skills';
+
+@import 'theme/contact';
