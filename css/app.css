@@ -28,7 +28,7 @@
   }
 }
 .main_slide {
-  background-image: url("../../img/fundo.jpg");
+  background-image: url("../img/fundo.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
